@@ -30,7 +30,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt CARET ESCAPE  &kp Q        &kp W           &kp E           &kp R             &kp T        &kp Y    &kp U              &kp I            &kp O            &kp P                &kp BSPC
+&mt ESCAPE CARET  &kp Q        &kp W           &kp E           &kp R             &kp T        &kp Y    &kp U              &kp I            &kp O            &kp P                &kp BSPC
 &kp TAB           &mt LCTRL A  &mt LEFT_GUI S  &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G        &kp H    &mt RIGHT_SHIFT J  &mt RIGHT_ALT K  &mt RIGHT_GUI L  &mt RCTRL SEMICOLON  &kp SQT
 &to 0             &kp Z        &kp X           &kp C           &kp V             &kp B        &kp N    &kp M              &kp COMMA        &kp DOT          &kp FSLH             &kp ESC
                                                &kp LGUI        &mo 1             &kp SPACE    &kp RET  &mo 2              &kp LALT
