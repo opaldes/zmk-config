@@ -61,14 +61,14 @@
 
         Symbols {
             bindings = <
-&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans    &trans  &kp N7  &kp N8  &kp N9  &kp PLUS      &kp MINUS
-&trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER       &kp MINUS        &trans    &trans  &kp N4  &kp N5  &kp N6  &kp N0        &kp EQUAL
-&trans  &trans                &trans                 &trans          &trans           &trans    &trans  &kp N1  &kp N2  &kp N3  &kp ASTERISK  &kp SLASH
-                                                     &trans          &trans           &trans    &trans  &trans  &trans
+&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans    &trans  &mt F7 N7  &mt F8 N8  &mt F9 N9  &kp PLUS      &kp MINUS
+&trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER       &kp MINUS        &trans    &trans  &mt F1 N4  &mt F5 N5  &mt F6 N6  &mt F10 N0    &kp EQUAL
+&trans  &trans                &trans                 &trans          &trans           &trans    &trans  &mt F1 N1  &mt F2 N2  &mt F3 N3  &kp ASTERISK  &kp SLASH
+                                                     &trans          &trans           &trans    &trans  &trans     &trans
             >;
         };
 
-        raise_layer {
+        Other {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -94,10 +94,10 @@
 
         GamingRaise {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N4  &kp N5  &kp N6  &kp N0  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N7  &kp N8  &kp N9  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &trans  &trans    &trans  &trans    &kp UP_ARROW    &trans     &trans  &trans
+&trans  &kp N4  &kp N5  &kp N6  &kp N0  &trans    &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+&trans  &kp N7  &kp N8  &kp N9  &trans  &trans    &trans  &trans    &trans          &trans     &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans    &trans
             >;
         };
 
