@@ -63,7 +63,7 @@
             bindings = <
 &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans    &trans  &mt F7 N7  &mt F8 N8  &mt F9 N9  &kp PLUS      &kp MINUS
 &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER       &kp MINUS        &trans    &trans  &mt F1 N4  &mt F5 N5  &mt F6 N6  &mt F10 N0    &kp EQUAL
-&trans  &trans                &trans                 &trans          &trans           &trans    &trans  &mt F1 N1  &mt F2 N2  &mt F3 N3  &kp ASTERISK  &kp SLASH
+&trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans          &trans           &trans    &trans  &mt F1 N1  &mt F2 N2  &mt F3 N3  &kp ASTERISK  &kp SLASH
                                                      &trans          &trans           &trans    &trans  &trans     &trans
             >;
         };
